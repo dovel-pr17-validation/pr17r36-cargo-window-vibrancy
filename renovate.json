@@ -1,0 +1,11 @@
+{
+  "extends": ["config:recommended"],
+  "rangeStrategy": "replace",
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "semanticCommitType": "chore",
+      "minimumReleaseAge": "3 days"
+    }
+  ]
+}
